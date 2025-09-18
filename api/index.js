@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 /* ---------- hard-coded config ---------- */
-const MONGO_URI = 'mongodb+srv://rehan:rehan@cluster0.rrcgbky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = 'mongodb+srv://rehan:rehan@cluster0.rrcgbky.mongodb.net/todo?retryWrites=true&w=majority';
 const JWT_SECRET = 'supersecretkey';
 const PORT = 5000;
 /* ---------- connect DB ---------- */
